@@ -1,6 +1,7 @@
 class Spotter < Formula
   desc "Follow your own live recording from the terminal, and answer in it"
   homepage "https://spotter.pisspoursoftware.xyz"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
