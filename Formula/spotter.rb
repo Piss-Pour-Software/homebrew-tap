@@ -1,19 +1,19 @@
 class Spotter < Formula
   desc "Follow your own live recording from the terminal, and answer in it"
   homepage "https://spotter.pisspoursoftware.xyz"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://spotter.pisspoursoftware.xyz/download/v0.1.1/spotter-0.1.1-darwin-arm64.tar.xz"
-      mirror "https://github.com/Piss-Pour-Software/spotter/releases/download/v0.1.1/spotter-0.1.1-darwin-arm64.tar.xz"
-      sha256 "84fbb5fa50edd7cb61cbb381efb7e7460f550054371e80afe3a68ad4a95c0c4d"
+      url "https://spotter.pisspoursoftware.xyz/download/v0.1.2/spotter-0.1.2-darwin-arm64.tar.xz"
+      mirror "https://github.com/Piss-Pour-Software/spotter/releases/download/v0.1.2/spotter-0.1.2-darwin-arm64.tar.xz"
+      sha256 "630ab26f49b069e8190273b69e0ee3ba6f8fc7a9c40c86eee21417f199d8392e"
     end
     on_intel do
-      url "https://spotter.pisspoursoftware.xyz/download/v0.1.1/spotter-0.1.1-darwin-x64.tar.xz"
-      mirror "https://github.com/Piss-Pour-Software/spotter/releases/download/v0.1.1/spotter-0.1.1-darwin-x64.tar.xz"
-      sha256 "3088637439d0bd9e02a2edd1b8f24bd0bb9d06147a88b301405f585ca6f7339a"
+      url "https://spotter.pisspoursoftware.xyz/download/v0.1.2/spotter-0.1.2-darwin-x64.tar.xz"
+      mirror "https://github.com/Piss-Pour-Software/spotter/releases/download/v0.1.2/spotter-0.1.2-darwin-x64.tar.xz"
+      sha256 "ee2611e8d0caac64393fdbae45245a6a1c4a28e3c65633d0d9ca3637169dca0e"
     end
   end
 
